@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import DropdownMenu from "./DropdownMenu";
-import logo300 from "../assets/images/logo300.png"
+import logo300 from "../assets/images/logo300.png";
 import "./LandingPage.scss";
 
 function Navbar() {
