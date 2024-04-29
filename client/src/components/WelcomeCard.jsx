@@ -1,3 +1,5 @@
+import nightsky from "../assets/images/nightsky.jpg"
+import logo600 from "../assets/images/logo600.png"
 import "./LandingPage.scss";
 
 function WelcomeCard() {
@@ -5,12 +7,12 @@ function WelcomeCard() {
     <>
       <img
         className="welcomeImage"
-        src="/src/assets/images/nightsky.jpg"
+        src={nightsky}
         alt=""
       />
       <img
         className="welcomeLogo"
-        src="/src/assets/images/logo600.png"
+        src={logo600}
         alt=""
       />
       <p className="description">

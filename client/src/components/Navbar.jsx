@@ -1,3 +1,4 @@
+import "../assets/images/logo300.png"
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import DropdownMenu from "./DropdownMenu";
@@ -15,7 +16,7 @@ function Navbar() {
       <a href="/">
         <img
           className="navbarLogo"
-          src="/src/assets/images/logo300.png"
+          src={logo300}
           alt="logo Art from home"
         />
       </a>
